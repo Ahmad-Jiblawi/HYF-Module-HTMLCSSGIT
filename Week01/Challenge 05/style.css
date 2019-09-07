@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #9e8b4d;
+}
+
+#header {
+    width: 90%;
+    font-size: 45px;
+    margin: 75px auto;
+    font-weight: bold;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+}
+
+#logo h1 {
+    display: none;
+}
+
+#header blockquote {
+    max-width: max-content;
+    margin: auto;
+    letter-spacing: 1px;
+    /* border: 1px solid blue; */
+}
+
+#header div {
+    max-width: max-content;
+    margin: auto;
+}
+
+#content {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    font-size: 25px;
+    /* border: 1px solid black; */
+}
+
+#content-side {
+    width: 30%;
+    /* border: 1px solid red; */
+}
+
+#content-side td, #content-side dd{
+    margin-bottom: 20px;
+}
+
+#content-side dt{
+    font-size: 26px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#content-side dd {
+    /* width: 370px; */
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+#content-main {
+    width: 55%;
+    max-height: max-content;
+    border-left: 1px solid black;
+    margin-left: 40px;
+    padding-left: 80px;
+    font-family: 'Exo', sans-serif;
+}
+
+
+#content-main small {
+    display: block;
+    margin: 10px 0;
+}
+
+#content-main p {
+    margin-bottom: 10px;
+}
+

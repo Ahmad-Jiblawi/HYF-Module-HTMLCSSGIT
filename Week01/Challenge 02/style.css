@@ -1,0 +1,42 @@
+@font-face{
+    font-family: 'Dosis', sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+}
+
+body {
+    background: #84bed6;
+}
+
+#wrap {
+    width: 60%;
+    margin: 30px auto;
+    background: #e8e8e8;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    border: 10px dashed #eb0d8b;
+    border-radius: 10px;
+    font-family: 'Dosis', 'Gill Sans', 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    font-family: Tahoma,'Segoe UI', Verdana, sans-serif;
+    border-bottom: 10px dashed #eb0d8b;
+    padding-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    font-size: 20px;
+}
+
+span{
+    font-weight: bold;
+    font-size: 22px;
+    font-family: cursive, 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
+}
+
+.copyright {
+    font-size: 16px;
+    font-weight: bold;
+}

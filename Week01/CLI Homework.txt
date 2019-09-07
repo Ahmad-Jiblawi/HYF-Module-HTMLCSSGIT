@@ -1,0 +1,21 @@
+* How do I create a hidden file or folder? How do I display it in the CLI?
+
+	- Make a folder :		mkdir "Hack Your Future"
+	- Hide the folder :		attrib +h "Hack Your Future"
+	- Display the hidden folder :	attrib -h "Hack Your Future"
+
+	- Make a txt file :		echo Hello > "Text.txt"
+	- Hide the file :		attrib +h "Text.txt"
+	- Display the hidden file:	attrib -h "Text.txt"
+
+
+* How do I create multiple nested directories, like /c/Users/myusername/these/folders/are/just/for/fun?
+
+	- Make multiple nasted directories (on windows): 	mkdir \c\Users\myusername\these\folders\are\just\for\fun
+
+
+* How do I append a message to a file, without a newline character ?  like >>	first message
+										second message
+
+	1- I need to create a new txt file with "first massage" sentence	:	echo first messege > "cli challenge.txt"
+	2- I will append "second message" sentence without a newline character	:	echo second message >> "cli challenge.txt"
