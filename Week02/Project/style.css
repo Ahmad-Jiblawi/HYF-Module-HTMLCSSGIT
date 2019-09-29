@@ -11,6 +11,7 @@
 body {
     background-color: #edeff0;
     font-family: 'Gayathri', sans-serif;
+    min-width: 350px;
 }
 
 /* header */
@@ -204,6 +205,10 @@ li p {
         clear: both;
     }
 
+    .section2 h2 {
+        padding-top: 60px;
+    }
+
     #grid-flex {
         width: 100%;
         display: flex;
@@ -269,6 +274,31 @@ li p {
         font-size: 2.85vw;
     }
 
+    h2 {
+        margin: auto;
+        font-size: 4vw;
+    }
+
+    img {
+        width: 90%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+    
+    h3 {
+        width: 100%;
+        height: 20%;
+        font-size: 5vw;
+        padding: 40px 15px 15px;
+        margin-bottom: 20px;
+        color: #5fcf80;
+    }
+    
+    li p {
+        width: 100%;
+        height: 72vh;
+    }
+
     /* Float-Grid */
 
     #grid-floats .grid-item {
@@ -279,6 +309,12 @@ li p {
     #grid-floats .first-li {
         width: 95%;
         margin: 2.5%;
+    }
+
+    #grid-floats .last-child {
+        width: 45%;
+        clear: both;
+        margin: 0 25%;
     }
 
     /* Flex-Grid */
